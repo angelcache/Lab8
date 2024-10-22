@@ -101,6 +101,10 @@ public class CustomList extends ArrayAdapter<City> {
      *      Returns an int
      */
     public int countCities() {
-        return 2000;
+        if (this.cities == null) {
+            return 0;
+        } else {
+            return this.cities.size();
+        }
     }
 }
