@@ -78,6 +78,15 @@ public class CustomList extends ArrayAdapter<City> {
         return Boolean.FALSE;
     }
 
-
-
+    /**
+     * This checks if a city is present in the list. If it does then it removes it from the list,
+     * if not then it throws an exception
+     * @param city
+     *      The city we try to remove from the list
+     * @throws IllegalArgumentException
+     *      Throws an IllegalArgumentException if the city we are trying to delete is not in the
+     *      list.
+     */
+    public void delete(City city) {
+    }
 }
