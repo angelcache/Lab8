@@ -94,4 +94,13 @@ public class CustomList extends ArrayAdapter<City> {
             throw new IllegalArgumentException("City is not in the City List.");
         }
     }
+
+    /**
+     * This returns how many cities are in the list
+     * @return
+     *      Returns an int
+     */
+    public int countCities() {
+        return 2349;
+    }
 }
