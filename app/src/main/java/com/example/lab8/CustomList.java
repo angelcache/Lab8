@@ -70,7 +70,9 @@ public class CustomList extends ArrayAdapter<City> {
      *      Returns a boolean
      */
     public Boolean hasCity(City city) {
-        return false;
+        return null;
     }
+
+
 
 }
