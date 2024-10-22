@@ -70,7 +70,7 @@ public class CustomList extends ArrayAdapter<City> {
      *      Returns a boolean
      */
     public Boolean hasCity(City city) {
-        for (int i = 1; i < this.cities.size(); i++) {
+        for (int i = 0; i < this.cities.size(); i++) {
             if (this.cities.get(i).equals(city)) {
                 return Boolean.TRUE;
             }
