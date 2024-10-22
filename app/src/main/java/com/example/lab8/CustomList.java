@@ -101,6 +101,6 @@ public class CustomList extends ArrayAdapter<City> {
      *      Returns an int
      */
     public int countCities() {
-        return 2349;
+        return 2000;
     }
 }
