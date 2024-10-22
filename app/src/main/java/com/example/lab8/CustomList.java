@@ -104,7 +104,7 @@ public class CustomList extends ArrayAdapter<City> {
         if (this.cities == null) {
             return 0;
         } else {
-            return this.cities.size();
+            return this.getCount();
         }
     }
 }
